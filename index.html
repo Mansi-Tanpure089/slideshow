@@ -13,8 +13,8 @@
             position: relative;
         }
         .slide{
-            height: 630px;
-            width:600px;
+            height:500px;
+            width:500px;
             object-fit: cover;
             border-radius: 10px;
         }
@@ -44,14 +44,14 @@
 </head>
 <body>
     <div class="container">
-        <img src="doraemon.jpeg" class="slide" id="slide"/>
-        <img src="prev.png" class= "ico-action ico-left" onclick="prev()"/>
-        <img src="back.png" class= "ico-action ico-right" onclick="next()"/>
+        <img src="pr1.png" class="slide" id="slide"/>
+        <img src="pr2.png" class= "ico-action ico-left" onclick="prev()"/>
+        <img src="pr3.png" class= "ico-action ico-right" onclick="next()"/>
 
 
     </div>
     <script>
-        const images =[ "nobita.jpeg","shizuka.jpeg","dorami.jpeg","suneo.jpeg","Gian.jpeg","doraemon.jpeg"];
+        const images =[ "pr1.png","pr2.png","pr3.png","pr4.png","pr5.png"];
         let index = 0;
         const slide = document.getElementById('slide');
 
